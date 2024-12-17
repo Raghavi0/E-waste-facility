@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Facility Locator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+<body style="background-image: url('data:image/jpeg;base64,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');
+margin: 0; padding: 0; height: 100vh;background-size: cover; background-position: center; background-repeat: no-repeat; font-family: Arial, sans-serif;">
+    <header>
+        <nav id="navbar" class="">
+            <div class="nav-wrapper">
+              <!-- Navbar Logo -->
+              <div class="logo">
+                <!-- Logo Placeholder for Illustration -->
+                <a href="#home"><img width="80px" height="50px" 
+                    src="https://green.org/wp-content/uploads/2024/01/A-Beginners-Guide-to-E-Waste-Recycling.jpg"></a>
+              </div>
+          
+              <!-- Navbar Links -->
+              <ul id="menu">
+                <li><a href="index.html">Home</a></li><!--
+             --><li><a href="srvices.html">Services</a></li><!--
+             --><li><a href="about.html">About</a></li><!--
+             --><li><a href="about.html">Contact</a></li>
+                <li><a href="location.html">location</a></li>
+              </ul>
+            </div>
+          </nav>
+          
+          
+          <!-- Menu Icon -->
+          <div class="menuIcon">
+            <span class="icon icon-bars"></span>
+            <span class="icon icon-bars overlay"></span>
+          </div>
+          
+          
+          <div class="overlay-menu">
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#location">location</a></li>
+              </ul>
+          </div>
+          <br>
+          <br>
+          <br><br><br>
+          </header>
+    <center>
+        <div>
+          <h1 class="h1">E -Waste Facility Locator</h1>
+          <br>
+          <p class="p1">Welcome to the E-Waste Facility Locator, your one-stop destination for responsible e-waste management! Easily find the nearest certified facilities to recycle and dispose of electronic waste safely. Our user-friendly interface allows you to search by location, access detailed information about each facility, and learn more about the importance of e-waste recycling. Join us in making a positive impact on the environment by ensuring your e-waste is handled correctly. 
+            Get started today and help create a cleaner, greener future!</p>
+            <br>
+            <hr>
+        </div>
+    </center>
+    
+      <div class="container">
+        <div style="position:center;">
+         <img src="https://ewastelocator.netlify.app/assets/profile-pic.png" class="img1"/>
+        </div>
+          <div class="container1">
+          
+          <button type="submit" class="b1"><a href="login.html" onclick="login">Login</a></button>
+          <button type="submit" class="b1"><a href="signin.html" onclick="Signin">Sign-In</a></button>
+          <button type="submit" class="b1"><a href="sb.html" onclick="reg">Seller/Buyer</a></button>
+          
+         </div>
+       </div>
+  
+
+    </body>
+</html>
